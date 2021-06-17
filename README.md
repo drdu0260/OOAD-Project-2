@@ -3,6 +3,7 @@
 
 ## Comments
 - We were able to apply everything we have been learning in class to create this application
+- The UML diagram is located inside of src
 
 ## Issues during Development
 - The development of this project went smoothly and ran into very few errors. 
