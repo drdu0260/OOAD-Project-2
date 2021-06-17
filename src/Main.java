@@ -9,8 +9,7 @@ class Main {
         System.out.println("How many days should it run? ");
         int days = scan.nextInt();
         scan.close();
-
-        //Vehicle[] garage = {new Delivery()};//{new Bike(), new Bike(), new Trike(), new Trike(), new Sidecar(), new Sidecar(), new Hatchback(), new Hatchback(), new SUV(), new SUV(), new Wagon(), new Wagon(), new Convertible(), new Convertible()};        //Populate a garage array of vehicle objects
+        
         Garage g = new Garage();
         ArrayList<Vehicle> vehicleList = g.vehicleList;
         
