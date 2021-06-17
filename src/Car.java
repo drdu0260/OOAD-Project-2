@@ -4,7 +4,7 @@ class Car extends Vehicle {
     public Car() {
     }
     //Special case for Car. Overriding the runs method of Vehicle class (Inheritance)
-    //@Override
+    @Override
     public void runs() {
         Random r = new Random();
         if (r.nextDouble() < 0.25) {
